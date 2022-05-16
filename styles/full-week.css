@@ -1,0 +1,60 @@
+header {
+  margin-bottom: 50px;
+}
+h1 {
+  font-size: 48px;
+  color: rgb(71, 62, 62);
+  margin: 0;
+}
+#description {
+  margin: 12px 0;
+}
+
+ol:first-child {
+  margin-top: 50px;
+}
+a {
+  display: inline-block;
+  margin: 0;
+  padding: 12px 24px;
+  background-color: rgb(167, 1, 78);
+  color: white;
+  border-radius: 4px;
+  font-size: 26px;
+  border: 1px solid rgb(167, 1, 78);
+}
+a:hover {
+  text-decoration: none;
+  background-color: rgb(201, 34, 112);
+  color: white;
+}
+ol {
+  list-style: none;
+  width: 500px;
+  margin: 26px auto 0 auto;
+  padding: 0;
+}
+
+/* selecting using class */
+.daily-goal {
+  margin: 8px 0px;
+  color: rgb(39, 28, 26);
+}
+li h2 {
+  color: rgb(105, 29, 19);
+  font-family: "Oswald", sans-serif;
+  margin: 5px;
+}
+li {
+  font-family: "Fira Sans", sans-serif;
+  margin: 32px;
+  padding: 19px;
+  font-size: 18px;
+  border-radius: 6px;
+  background-color: rgb(223, 136, 124);
+  color: #422f2f;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 2);
+}
+.hightlight-goal {
+  background-color: rgb(219, 115, 101);
+}
